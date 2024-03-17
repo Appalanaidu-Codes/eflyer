@@ -1,0 +1,38 @@
+
+b{
+    color: red;
+}
+
+.box{
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.items{
+    margin: 1%;
+    width: 400px;
+    height: 700px;
+    background-color: white;
+}
+
+img{
+    width: 40%;
+    height: 400px;
+    background-size: cover ;
+}
+.bg-body-tertiary{
+    background-color: black;
+}
+
+.add{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;   
+
+}
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss'
